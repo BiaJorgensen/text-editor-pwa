@@ -18,11 +18,56 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      // To generate HTML file
+      new HtmlWebpackPlugin({
+        template: './index.html'
+      }),
+
+      // To generate service worker file
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js'
+      }),
+
+      // To generate a manifest.json for PWA
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'My Notes',
+        short_name: 'Notes',
+        description: 'View and Add notes',
+        background_color: '#db6bc7',
+        theme_color: '#db6bc7',
+        start_url: './',
+        publicPath: './',
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ],
+      })
       
     ],
 
     module: {
       rules: [
+        {
+          // CSS loaders
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader']
+        },
+        // Babel-loader
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime']
+          }
+        }
         
       ],
     },
