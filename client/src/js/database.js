@@ -35,10 +35,8 @@ export const getDb = async () => {
   const store = transaction.objectStore('jate');
   // Getting all content from jate
   const getAllContent = store.getAll();
-  console.log('getAllContent request sent');
   // Confirming request to get all content
   const result = await getAllContent
-  console.log('getAllContent response received:', result);
   return result.content
 }
 
