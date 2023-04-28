@@ -21,20 +21,18 @@ If you wish to run this application locally, please use https://nodejs.org/en/ t
 Run `npm i` in the terminal to install dependencies.
 
 ## Usage
-* To use this Text Editor locally, follow these steps:
+1. To use this Text Editor locally, follow these steps:
     1. Clone this project's repository to local machine by using SSH Key `git@github.com:BiaJorgensen/text-editor-pwa.git`
+    1. Open a new Terminal
+    1. Type `npm i` to guarantee dependencies are installed
+    1. Type `npm run start` from the root directory
+        * This will build the webpack and run the server
+    1. The application should open in the browser using local host 3000
+    1. Start adding notes or code snippets
+    1. Click on the install button to download the web application on your desktop
 
-    1. To connect to server:
-        * Open a new Terminal
-        * Type `npm i` to guarantee dependencies are installed
-        * Type `npm run start` from the root directory
-            * This will build the webpack and run the server
-        * The application should open in the browser using local host 3000
-        * Start adding notes or code snippets
-        * Click on the install button to download the web application on your desktop
-
-* To use the Heroku deployed version, follow these steps:
-    1. Open `https://bia-jorgensen-text-editor.herokuapp.com/`
+1. To use the Heroku deployed version, follow these steps:
+    1. Open https://bia-jorgensen-text-editor.herokuapp.com/
     1. Start adding notes or code snippets
     1. Click on the install button to download the web application on your desktop
  
