@@ -14,7 +14,7 @@
 Text Editor project is a web application that uses IndexedDB to store text that can be viewed and edited with or without internet connection. This application is also a installable Progressive Web App (PWA).\
 This project is part of a challenge from Full Stack Coding Bootcamp at the University of Minnesota.
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 
 ## Installation
@@ -22,7 +22,7 @@ This project is part of a challenge from Full Stack Coding Bootcamp at the Unive
 If you wish to run this application locally, please use https://nodejs.org/en/ to install Node.js (version 16 is recommended).
 Run `npm i` in the terminal to install dependencies.
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 ## Usage
 1. To use this Text Editor locally, follow these steps:
@@ -39,37 +39,38 @@ Run `npm i` in the terminal to install dependencies.
     1. Open https://bia-jorgensen-text-editor.herokuapp.com/
     1. Start adding notes or code snippets
     1. Click on the install button to download the web application on your desktop
+
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
  
 
 ## Credits
 
 University of Minnesota - Full Stack Coding Bootcamp
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 ## License
 
 The license for this project is **The MIT License**<br>
 To learn more about this license, please access https://opensource.org/licenses/MIT
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 ## Link to deployed application
 
 https://bia-jorgensen-text-editor.herokuapp.com/
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 ## Website preview
 
 <kbd>![Text-Editor-Homepage](./client/src/images/jate_homepage.JPG)</kbd>
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
 
 ## Questions
 Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
 If you have additional questions, please send an email to souzabeatriz17@gmail.com
 <br><br>
-[🢁](#text-editor-license-mit)
+[Back to top](#text-editor-license-mit)
